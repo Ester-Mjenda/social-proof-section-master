@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family:League Spartan;
+    scrollbar-width: none;
+
+}
+.background {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+.background img{
+    height:auto;
+    width: 90%;
+}
+.background :nth-child(1){
+    margin-bottom: 30%;
+}
+.background :nth-child(2){
+    margin-top: 8%;
+}
+ main{
+    position: relative; 
+    padding-top: 7%;
+ }
+.header{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 12%;
+}
+.left{
+    width: 34%;
+    color:hsl(303, 10%, 53%);
+}
+.left h1{
+    color:hsl(300, 43%, 22%);
+    width: 70%;
+    padding-bottom: 20px;
+}
+.right{
+    padding-left: 14%;
+}
+.Stars{
+    color:hsl(300, 43%, 22%);
+    background-color:hsl(300, 23%, 92%);
+    width: 100%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+}
+.Stars img{
+    padding-left: 5px;
+}
+.Stars p{
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.right .Stars:nth-child(2){
+    margin-left: 13%;
+}
+.right .Stars:nth-child(3){
+    margin-left: 25%;
+}
+.boxes{
+    display: flex;
+    line-height: 1.2;
+}
+.box{
+  background-color: hsl(300, 43%, 22%);  
+  color: white;
+  width: 26%;
+  border-radius: 5px;
+  padding: 40px 27px 20px;
+  margin: 10px;
+  margin-left:12%;
+  margin-bottom: 60px;
+}
+.box-2{
+  background-color: hsl(300, 43%, 22%);  
+  color: white;
+  width: 25%;
+  border-radius: 5px;
+  padding: 40px 27px;
+  margin: 10px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.box-3{
+    background-color: hsl(300, 43%, 22%);  
+    color: white;
+    width: 26%;
+    border-radius: 5px;
+    padding: 40px 30px;
+    margin: 10px;
+    margin-top:50px;
+  }
+.image{
+    display: flex;
+    padding-bottom: 20px;
+}
+.image img{
+    border-radius: 50%;
+    height: 40px;
+}
+.name{
+    padding-left: 20px;
+}
+h4{
+    font-weight:bolder;
+    color: hsl(333, 80%, 67%);
+
+}
